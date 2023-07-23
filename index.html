@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- icon -->
+    <script src="https://kit.fontawesome.com/34ad9407e3.js" crossorigin="anonymous"></script>
+    <!-- css links -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+  </head>
+  <body>
+    <div class="container">
+      
+      <h1>click the button to change the text.</h1>
+
+      <button type="button" class="btn btn-dark my-2" onclick="textChange()">text change</button>
+
+      <h2 id="h2">hello world!</h2>
+
+    </div>
+<!-- show date -->
+<div class="container">
+  <h1>click the button to show the date.</h1>  
+  <button type="button" class="btn btn-dark my-2" onclick="showDate()">show date</button>
+  <h2 id="ddh2">date</h2>
+
+</div>
+
+<!-- variable ex -->
+<div class="container">
+  <button class="btn btn-success" onclick="lightOn()">Turn on the light</button>
+
+<img id="myImage" src="images/light_off.gif" style="width:100px">
+
+<button class="btn btn-danger" onclick="lightOff()">Turn off the light</button>
+</div>
+<!-- font size -->
+<div class="container">
+  <h2>What Can JavaScript</h2>
+
+<p id="demo">Lorem ipsum dolor sit amet, consectetur, adipisicing elit. Error, aspernatur.</p>
+
+<button class="btn btn-primary" type="button" onclick="fontSize()">Click Me!</button>
+</div>
+
+<!-- none -->
+<div class="container">
+  <h2 id="demo1">JavaScript can hide HTML elements.</h2>
+
+<button class="btn btn-warning" type="button" onclick="none()">Click Me!</button>
+</div>
+
+<!-- plus -->
+<div class="container">
+  <p>my frist para</p>
+  <p id="demo2">fjsfasorfiweariaw</p>
+
+<script>
+document.getElementById("demo2").innerHTML = 5 + 6;
+</script>
+</div>
+
+<!-- plus2 -->
+<div class="container">
+  <h2>My First Web Page</h2>
+  <p>My first paragraph.</p>
+
+<button class="btn btn-danger" type="button" onclick="plus()">Try it</button>
+</div>
+
+<!-- print -->
+<div class="container">
+<p>Click the button to print the current page.</p>
+
+<button class="btn btn-success" onclick="window.print()">Print this page</button>
+</div>
+
+<!-- plus intu -->
+<div class="container">
+  <h2>JavaScript Statements</h2>
+
+<p>A <b>JavaScript program</b> is a list of <b>statements</b> to be executed by a computer.</p>
+
+<p id="demo5"></p>
+
+<script>
+let x, y, z;  // Statement 1
+x = 5;        // Statement 2
+y = 6;        // Statement 3
+z = x + y;    // Statement 4
+ 
+</script>
+</div>
+
+<!-- no -->
+<div class="container">
+<p>JavaScript statements are separated by semicolons.</p>
+
+<p id="demo4"></p>
+
+<script>
+let a, b, c;
+a = 5;
+b = 6;
+c = a + b;
+document.getElementById("demo4").innerHTML = c;
+</script>
+</div>
+
+
+<div class="container">
+<p>Multiple statements on one line are allowed.</p>
+
+<p id="dem"></p>
+
+<script>
+let a, b, c;
+a = 5; b = 6; c = a + b;
+document.getElementById("dem").innerHTML = c;
+</script>
+</div>
+
+
+
+
+    <div class="container">
+      <div class="row">
+      <div class="col-lg-4">
+        <div class="box">
+          <div class="m_img">
+            <img src="images/1.png" alt="">
+          </div>
+          <div class="l_img">
+            <ul>
+              <li><img src="images/hover.png" alt="java"></li>
+            </ul>
+          </div>
+          <div class="m_h2">
+            <h2>Project Title</h2>
+            <p>App Design</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="box">
+          <div class="m_img">
+            <img src="images/1.png" alt="">
+          </div>
+          <div class="l_img">
+            <ul>
+              <li><img src="images/hover.png" alt="java"></li>
+            </ul>
+          </div>
+          <div class="m_h2">
+            <h2>Project Title</h2>
+            <p>App Design</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="box">
+          <div class="m_img">
+            <img src="images/1.png" alt="">
+          </div>
+          <div class="l_img">
+            <ul>
+              <li><img src="images/hover.png" alt="java"></li>
+            </ul>
+          </div>
+          <div class="m_h2">
+            <h2>Project Title</h2>
+            <p>App Design</p>
+          </div>
+        </div>
+      </div>
+      </div>
+    </div>
+
+<div class="bg">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3">
+        <div class="people">
+          <div class="p_img">
+            <img src="images/people.jpg" alt="">
+          </div>
+          <div class="icon">
+            <ul>
+              <li><i class="fa-brands fa-facebook-f sona"></i></li>
+              <li><i class="fa-brands fa-twitter"></i></li>
+              <li><i class="fa-solid fa-basketball"></i></li>
+              <li><i class="fa-brands fa-instagram"></i></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+    <!-- js links -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/saipt.js"></script>
+  </body>
+</html> 
